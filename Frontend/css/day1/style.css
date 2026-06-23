@@ -1,0 +1,51 @@
+/* #maindiv1{
+    background-color:plum;
+        width: 200px;
+        height: 200px;
+        border: double;
+        border-radius: 50%;
+        display: flex;
+        border-color: black;
+        justify-content: center;
+        align-items: center;
+} */
+
+
+
+/* #div2{
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 50%;
+    background: palegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3{
+    width: 200px;
+    height: 200px;
+    border-radius: 45%;
+    background: plum ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+ /*grouping selector*/
+/* p,main ,div{
+    width: 200px;
+    height: 200px;
+    border-radius: 45%;
+    background: plum ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* universal selector */
+*{    
+    background: pink ;
+}

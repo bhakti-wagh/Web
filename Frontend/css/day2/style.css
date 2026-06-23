@@ -1,0 +1,17 @@
+*{
+    border: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+#maindiv{
+display: flex;
+display: inline-block;
+justify-content: space-around;
+background-color: antiquewhite;
+justify-content: center;
+text-align: center;
+}

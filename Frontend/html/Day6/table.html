@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- table -> combination of rows and column
+        data should be present in cell
+        tr-> table row
+        td-> table data 
+        border=" 1"-> thickness of table or border
+        border-collapse-> 
+        padding-> the space between border and content is konwn as padding
+        cellspacing-> it is the space between the cells
+        thead-> effect on seo 
+        tboady->effect on seo
+        rowspan-> span the row wise
+        colspan-> span the column wise
+        
+
+        -->
+
+    <table
+      border="1"
+      style="border-collapse: collapse; width: 50%; text-align: center"
+    >
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Discount</th>
+          <th>Quality</th>
+          <th>total</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Mobile</td>
+          <td>79,999</td>
+          <td>50%</td>
+          <td>1</td>
+          <td>40,000</td>
+        </tr>
+        <tr>
+          <td>AC</td>
+          <td>49,999</td>
+          <td>25%</td>
+          <td>2</td>
+          <td>45000</td>
+        </tr>
+
+        <tr>
+          <td>Laptop</td>
+          <td>45,999</td>
+          <td>35%</td>
+          <td>1</td>
+          <td>35000</td>
+        </tr>
+        <tr>
+          <td>HardDisk</td>
+          <td>10,999</td>
+          <td>20%</td>
+          <td>3</td>
+          <td>15000</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br /><br />
+    <table border="1">
+      <tr>
+        <td>prod name</td>
+        <td>Price</td>
+        <td>Disc</td>
+        <td>Qty</td>
+        <td>Total</td>
+      </tr>
+      <tr>
+        <td>Mobile</td>
+        <td rowspan="2">100</td>
+        <td>4</td>
+        <td>5</td>
+        <td>490</td>
+      </tr>
+      <tr>
+        <td>AC</td>
+        <!-- <td>100</td> -->
+        <td colspan="2">4</td>
+        <!-- <td>4</td> -->
+        <td>388</td>
+      </tr>
+      <tr>
+        <td>headphones</td>
+        /
+        <td>200</td>
+        <td>4</td>
+        <td>1</td>
+        <td>380</td>
+      </tr>
+    </table>
+
+    <br /><br />
+
+    <table border="1" cellpadding="50px" cellspacing="25px">
+      <tr>
+        <td>text1</td>
+        <td>text2</td>
+        <td>text3</td>
+        <td>text4</td>
+        <td>text5</td>
+      </tr>
+      <tr>
+        <td>text1</td>
+        <td>text2</td>
+        <td>text3</td>
+        <td>text4</td>
+        <td>text5</td>
+      </tr>
+      <tr>
+        <td>text1</td>
+        <td>text2</td>
+        <td>text3</td>
+        <td>text4</td>
+        <td>text5</td>
+      </tr>
+      <tr>
+        <td>text1</td>
+        <td>text2</td>
+        <td>text3</td>
+        <td>text4</td>
+        <td>text5</td>
+      </tr>
+      <tr>
+        <td>text1</td>
+        <td>text2</td>
+        <td>text3</td>
+        <td>text4</td>
+        <td>text5</td>
+      </tr>
+    </table>
+  </body>
+</html>

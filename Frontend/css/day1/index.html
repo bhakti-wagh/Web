@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- External css using link tag -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- intrnal css -->
+    <style>
+      #maindiv {
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+        border: double;
+        border-radius: 50%;
+        display: flex;
+        border-color: black;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- inline css -->
+    <div
+      style="
+        background-color: tomato;
+        width: 200px;
+        height: 200px;
+        border: double;
+        border-radius: 50%;
+        display: flex;
+        border-color: black;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+     
+    </div> 
+    
+    <div id="maindiv">internal css</div>
+
+    <div id="maindiv1">External css</div>
+  </body>
+</html>

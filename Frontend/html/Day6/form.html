@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- option group is used for group the element  -->
+     <!-- placeholder -> text inside the texbox
+      for-> attribute is for connection between input and lable
+     value-> give value to input
+     readonly-> only for read we id not do modification 
+     disabled -> input field did not work 
+     required-> mandatory to fild // validation attribute
+     maxlength/minlength-> how much length want to give//validation attribute
+     -->
+
+    <form action="">
+
+
+        <label for="username">Name :</label>
+        <input type="text" id="username" placeholder="Enter name" >
+        <br><br>
+        <label for="add">Address :</label>
+        <textarea  id="add"></textarea>
+        <br><br>
+        <label for=""> Select Course :</label>
+        <select name="" id="">
+            <optgroup>
+             <option value="">Java Script</option>
+            <option value="">HTML</option>
+            <option value="">Css</option>
+          
+            </optgroup>
+            
+            <optgroup>
+                <option value="">spring</option>
+                <option value="">JAVA</option>
+                <option value="">JDBC</option>
+            </optgroup>
+
+            <optgroup>
+                <option value="">SQL</option>
+                <option value="">Oracke</option>
+                <option value="">PLSQL</option>
+            </optgroup>
+        </select>
+        <br><br>
+
+        <label for="mob">Mobile :</label>
+        <input type="tel" id="mob" required maxlength="10" minlength="10">
+        <br><br>
+       <input type="submit" value="Login">
+
+    </form>
+
+
+ 
+</body>
+</html>
