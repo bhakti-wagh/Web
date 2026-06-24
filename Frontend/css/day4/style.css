@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+ nav{
+    border: 2px solid black;
+    height: 6vh;
+   background-color: rgb(149, 144, 144); 
+     display: flex;
+    /* align-items: center; */
+    /* gap: 20px; */
+    justify-content: space-between;
+  
+} 
+
+.navdiv1{
+    width: 35vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 25px;
+    padding-left: 10px;
+    
+}
+
+img{
+    width: 40px;
+    height: 33px;
+}
+
+
+
+.navdiv2{
+    width:  70vh;
+    /* border: 2px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+main{
+    display: flex;
+    
+}
+
+aside{
+    height: 89vh;
+    width: 8%;
+    border: 2px solid #000;
+    background-color: rgb(165, 160, 160);   
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
+
+}
+
+p{
+    height:15px;
+    width: 15px;
+}
+
+
+   
+
+    
+.mainarc{
+    display: flex;
+}
+
+.maindiv{
+    display: flex;
+    /* border: 2px solid #000; */
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+   
+}
+
+
+section{
+    height: 20vh;
+    width: 30vh;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 5vh;
+    background-color:  rgb(149, 145, 145);   
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+}
