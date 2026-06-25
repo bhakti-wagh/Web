@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main,
+section{
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+    border: 3px solid #000;
+}
+
+main{
+    background-color: crimson;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+section{
+padding: 20px;
+    background: rgb(43,122,226);
+}
