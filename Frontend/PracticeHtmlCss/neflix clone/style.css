@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.maindiv{
+   height: 100vh;
+   border: 2px solid red;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  padding: 50px;
+   gap: 50px;
+
+   background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1192,h_670,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6Ii9mL2Y1NjJhYWY0LTVkYmItNDYwMy1hMzJiLTZlZjZjMjIzMDEzNi9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FScrpAAFnKqBVKwe2syeiOww6mfH6avq-DRHZ_uFVNw");
+   
+}
+
+.secondiv{
+    width: 80%;
+    height: 20%;
+    border: 5px solid rgb(7, 207, 84);
+  display: flex;
+  gap: 20px;
+ 
+    
+}
+
+img{
+    width: 30vh;
+    height: 100%;
+    
+}
+
+.logo1{
+    width: 30%;
+    border: 5px solid #000;
+}
+
+.button1{
+    width: 80%;
+    border: 5px solid #000;
+    display: flex;
+   justify-content: end;
+   align-items: center;
+   gap: 50px;
+
+}
+
+
+.lang-btn{
+  background: transparent;
+  color: white;
+  border: 1px solid grey;
+  padding: 12px 22px;
+  font-size: 18px;
+  border-radius: 4px;
+ 
+}
+
+.signin-btn{
+  background: red;
+  color: white;
+  
+  padding: 12px 28px;
+  font-size: 18px;
+  border-radius: 4px;
+ 
+}
+
+.midiv{
+    width: 90%;
+    height: 50%;
+    border: 5px solid rgb(212, 12, 12);
+
+}
