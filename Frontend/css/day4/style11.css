@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
+/* task11 */
 /* .wrapper {
   height: 100vh;
   display: flex;
@@ -56,7 +56,7 @@
 
 /* task12 */
 
-.wrap {
+/* .wrap {
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -105,4 +105,160 @@
   color: white;
   cursor: pointer;
   font-size: 16px;
+} */
+
+/* task13 */
+/* .wrap{
+  height: 100vh;
+  border: 2px solid black;
+  display: flex;
+ justify-content: center;
+ align-items: center;  
+}
+
+.panel
+{
+  width: 450px;
+  padding: 20px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.panel h2{
+  text-align: center;
+}
+.notification{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px;
+
+}
+.text{
+     display: flex;
+     flex-direction: column;
+     gap: 4px;
+}
+
+.text h4{
+  font-size: 16px;
+}
+.text p{
+  font-size: 14px;
+  color: gray;
+}
+
+.notification span {
+  font-size: 14px;
+  color: #555;
+} */
+
+
+/* task14 */
+
+/* .wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.product-row {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 220px;
+  min-height: 320px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.product-img {
+  width: 100%;
+  height: 140px;
+  background-color: lightgray;
+}
+
+.card h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.card p {
+  font-size: 18px;
+  color: #0078d4;
+  text-align: center;
+}
+
+.card button {
+  margin-top: auto;
+  padding: 10px 16px;
+  border: none;
+  background-color: #0078d4;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+} */
+
+
+/* task15 */
+
+.team-section{
+  min-height: 100vh;
+  padding: 40px;
+  background: #f2f2f2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.team-row{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-card{
+  width: 220px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ccc;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.team-img{
+  width: 100px;
+  height: 100px;
+  background: lightgray;
+  border-radius: 50%;
+}
+
+.icons{
+  display: flex;
+  gap: 10px;
+}
+
+.icon{
+  width: 25px;
+  height: 25px;
+  background: #0078d4;
 }
