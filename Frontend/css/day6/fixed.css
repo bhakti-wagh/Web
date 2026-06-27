@@ -19,6 +19,7 @@ main{
     width: 100%; 
     background: green;
     margin-top: 100px;
+    /* margin-bottom: 500px; */
 }
 
 section{
@@ -40,4 +41,5 @@ footer{
     height: 300px;
     width: 100%;
     background: #000;
+    position: sticky;
 }
