@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artdiv{
+    height:600px;
+    width: 900px;
+    border: 2px solid #000;
+    display: flex;
+}
+
+.asdidiv{
+    height: 86vh;
+    width: 20vw;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.div1{
+    height: 25vh;
+    width: 15vw;
+    border: 1px solid #000;
+}
+
+.div2{
+    height: 12vh;
+    width: 15vw;
+    border: 1px solid black;
+}
+
+.regdiv{
+     height: 86vh;
+    width: 40vw;
+    border: 2px solid rgb(165, 12, 12);
+}
+
+
