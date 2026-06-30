@@ -1,51 +1,323 @@
 *{
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
+
 body{
-    height: 100vh;
-    background: wheat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    background:#eef2f7;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+    padding:30px;
+
 }
 
-.artdiv{
-    height:600px;
-    width: 900px;
-    border: 2px solid #000;
-    display: flex;
+.container{
+
+    width:1100px;
+
+    background:white;
+
+    display:flex;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+
 }
 
-.asdidiv{
-    height: 86vh;
-    width: 20vw;
-    border: 3px solid black;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
+/* LEFT */
+
+.left{
+
+    width:35%;
+
+    background:#102b5c;
+
+    padding:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
 }
 
+.card{
 
-.div1{
-    height: 25vh;
-    width: 15vw;
-    border: 1px solid #000;
+    background:white;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
 }
 
-.div2{
-    height: 12vh;
-    width: 15vw;
-    border: 1px solid black;
+.card img{
+
+    width:100%;
+
+    display:block;
+
 }
 
-.regdiv{
-     height: 86vh;
-    width: 40vw;
-    border: 2px solid rgb(165, 12, 12);
+.info{
+
+    background:white;
+
+    border-radius:8px;
+
+    padding:15px;
+
+    display:flex;
+
+    gap:15px;
+
+    align-items:flex-start;
+
 }
 
+.info span{
 
+    width:35px;
+
+    height:35px;
+
+    background:#102b5c;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:bold;
+
+}
+
+.info p{
+
+    font-size:14px;
+
+    line-height:22px;
+
+}
+
+/* RIGHT */
+
+.right{
+
+    width:65%;
+
+    padding:45px;
+
+}
+
+.right h1{
+
+    margin-bottom:35px;
+
+    font-size:42px;
+
+    color:#222;
+
+}
+
+form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.row{
+
+    display:flex;
+
+    gap:25px;
+
+}
+
+.field{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.field label{
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.field input,
+.field textarea{
+
+    padding:14px;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+
+    outline:none;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+.field textarea{
+
+    resize:none;
+
+    height:55px;
+
+}
+
+.field input:focus,
+.field textarea:focus{
+
+    border-color:#102b5c;
+
+}
+
+.checkbox{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.buttons{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.buttons button{
+
+    flex:1;
+
+    padding:15px;
+
+    border:none;
+
+    cursor:pointer;
+
+    border-radius:5px;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.cancel{
+
+    background:white;
+
+    border:2px solid #102b5c !important;
+
+    color:#102b5c;
+
+}
+
+.cancel:hover{
+
+    background:#102b5c;
+
+    color:white;
+
+}
+
+.register{
+
+    background:#102b5c;
+
+    color:white;
+
+}
+
+.register:hover{
+
+    background:#163c7f;
+
+}
+
+.login{
+
+    text-align:center;
+
+}
+
+.login a{
+
+    text-decoration:none;
+
+    color:#102b5c;
+
+    font-weight:bold;
+
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.container{
+
+    flex-direction:column;
+
+}
+
+.left,
+.right{
+
+    width:100%;
+
+}
+
+.row{
+
+    flex-direction:column;
+
+}
+
+.buttons{
+
+    flex-direction:column;
+
+}
+
+}

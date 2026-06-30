@@ -3,25 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./registration.css">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration.css">
 </head>
 <body>
-       <article class="artdiv">
 
-         <aside class="asdidiv">
-            <div class="div1"></div>
-            <div class="div2"></div>
-            <div class="div1"></div>
-            <div class="div2"></div>
-         </aside>
+<div class="container">
 
-         <div class="regdiv">
-                <div class="clform"></div>
-                <div class="clform"></div>
-                <div class="clform"></div>
-         </div>
+    <!-- Left Side -->
+    <div class="left">
 
-       </article>
+        <div class="card">
+            <img src="https://picsum.photos/300/180?random=1" alt="">
+        </div>
+
+        <div class="info">
+            <span>1</span>
+            <p>
+                Register with us, enter your details and click on
+                <strong>"Register"</strong>.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300/180?random=2" alt="">
+        </div>
+
+        <div class="info">
+            <span>2</span>
+            <p>
+                Complete the registration process successfully.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Right Side -->
+    <div class="right">
+
+        <h1>Register</h1>
+
+        <form>
+
+            <div class="row">
+
+                <div class="field">
+                    <label>User Name</label>
+                    <input type="text" placeholder="Enter username" required>
+                </div>
+
+                <div class="field">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter email" required>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="field">
+                    <label>Contact Number</label>
+                    <input type="tel" placeholder="9876543210" required>
+                </div>
+
+                <div class="field">
+                    <label>Address</label>
+                    <textarea placeholder="Enter Address"></textarea>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="field">
+                    <label>Password</label>
+                    <input type="password" placeholder="********" minlength="8" required>
+                </div>
+
+                <div class="field">
+                    <label>Confirm Password</label>
+                    <input type="password" placeholder="********" minlength="8" required>
+                </div>
+
+            </div>
+
+            <div class="checkbox">
+
+                <input type="checkbox" id="check" required>
+
+                <label for="check">
+                    I Agree to the Terms & Conditions
+                </label>
+
+            </div>
+
+            <div class="buttons">
+
+                <button type="reset" class="cancel">
+                    Cancel
+                </button>
+
+                <button type="submit" class="register">
+                    Register
+                </button>
+
+            </div>
+
+            <p class="login">
+                Already have an account?
+                <a href="#">Login</a>
+            </p>
+
+        </form>
+
+    </div>
+
+</div>
+
 </body>
 </html>
