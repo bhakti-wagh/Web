@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background:#f7fbff;
+}
+
+nav{
+   height: 80px;
+   width: 100%;
+   border: 2px solid black;
+   display: flex;
+}
+.logo{
+    width: 35%;
+    height: 9vh;
+    /* border: 1px solid blue ; */
+    display: flex;
+   align-items: center;
+   padding-left: 50px;
+    text-decoration: none;
+    color: black;
+    font-size:30px;
+    font-weight:bold;
+
+}
+
+.menu{
+    width: 65%;
+    height: 9vh;
+    /* border: 1px solid blue ; */
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    padding-right: 50px;
+    gap: 50px;
+    list-style: none;
+    font-weight: 600;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}           
+
+.hero-section{
+    height: 80vh;
+    display: flex;
+   align-items: center;
+    padding: 0 80px;
+}
+
+.left-content{
+ flex: 1;
+ /* border: 1px solid #000; */
+ padding-right: 40px;
+}
+
+.left-content h4{
+    margin-bottom: 15px;
+}
+
+.left-content h1{
+    margin-bottom: 20px;
+}
+
+.left-content p{
+    margin-bottom: 25px;
+}
+
+.right-content{
+   flex: 1;
+   /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-content img{
+    width: 80%;
+    max-width: 450px;
+}
+
